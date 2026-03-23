@@ -27,5 +27,12 @@ int main() {
     std::cout << grade << '\n'; // display
     std::cout << initial << '\n'; // display
 
+    // boolean (true or false)
+    bool isStudent = true;
+    bool isAdult = false;
+
+    std::cout << isStudent << '\n'; // display
+    std::cout << isAdult << '\n'; // display
+
     return 0;
 }
