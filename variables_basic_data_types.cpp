@@ -20,5 +20,12 @@ int main() {
     std::cout << gpa << '\n'; // display
     std::cout << temperature << '\n'; // display
 
+    // single character
+    char grade = 'A';
+    char initial = 'B';
+
+    std::cout << grade << '\n'; // display
+    std::cout << initial << '\n'; // display
+
     return 0;
 }
