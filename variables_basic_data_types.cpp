@@ -34,5 +34,16 @@ int main() {
     std::cout << isStudent << '\n'; // display
     std::cout << isAdult << '\n'; // display
 
+    // string (objects that represents a sequence of text)
+    std::string name = "william";
+    std::string day = "friday";
+    std::string food = "pizza";
+    std::string address = "123 fake st.";
+
+    std::cout << "hello " << name << '\n';
+    std::cout << "today is " << day << '\n';
+    std::cout << "i like " << food << '\n';
+    std::cout << "i live at " << address << '\n';
+
     return 0;
 }
