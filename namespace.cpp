@@ -17,5 +17,9 @@ int main() {
     std::cout << first::x << '\n';
     std::cout << second::x << '\n';
 
+    // this method also works, using prefix
+    using namespace first;
+    std::cout << x << '\n';
+
     return 0;
 }
