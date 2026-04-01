@@ -2,6 +2,7 @@
 #include <vector>
 
 typedef std::string text_t;
+typedef int number_t;
 
 int main() {
     // typedef = reserved keyword used to create an additional name
@@ -11,6 +12,9 @@ int main() {
 
     text_t firstName = "william";
     std::cout << firstName << '\n';
+
+    number_t age = 28;
+    std::cout << age << '\n';
 
     return 0;
 }
