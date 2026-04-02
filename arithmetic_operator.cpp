@@ -18,9 +18,13 @@ int main() {
     // students *= 2; // same thing
 
     // students = students / 2;
-    students /= 2;
+    // students /= 2;
 
-    std::cout << students;
+    // returns remainder from 20/3 = 2, if % 2 then it is 0
+    int remainder = students % 3;
+
+    std::cout << students << '\n';
+    std::cout << remainder << '\n';
 
     return 0;
 }
