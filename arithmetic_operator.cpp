@@ -8,7 +8,11 @@ int main() {
 
     // students = students + 1;
     // students += 1; // does the same thing
-    students++; // does the same thing
+    // students++; // does the same thing
+
+    // students = students - 1;
+    // students -= 1; // does the same thing
+    students--; // does the same thing
 
     std::cout << students;
 
