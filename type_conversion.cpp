@@ -10,7 +10,13 @@ int main() {
 
     std::cout << x << '\n';
     std::cout << y << '\n';
-    std::cout << (char) 100; // explicitly cast the number to character
+    std::cout << (char) 100 << '\n'; // explicitly cast the number to character
+
+    int correct = 8;
+    int questions = 10;
+    double score = correct/(double)questions * 100;
+
+    std::cout << score << "%";
 
     return 0;
 }
