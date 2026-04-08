@@ -9,8 +9,14 @@ int main() {
     std::cout << "enter your age: ";
     std::cin >> age;
 
-    if (age >= 18) {
+    if (age >= 100) {
+        std::cout << "you are too old to enter!";
+    }
+    else if (age >= 18) {
         std::cout << "welcome to the site!";
+    }
+    else if (age < 0) {
+        std::cout << "you haven't been born yet!";
     }
     else {
         std::cout << "you are not old enough to enter!";
