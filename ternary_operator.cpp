@@ -21,5 +21,9 @@ int main() {
     int number = 9;
     number % 2 ? std::cout << "ODD" : std::cout << "EVEN";
 
+    bool hungry = false;
+    // hungry == true ? std::cout << "you are hungry" : std::cout << "you are full";
+    std::cout << (hungry ? "you are hungry" : "you are full"); // other way
+
     return 0;
 }
