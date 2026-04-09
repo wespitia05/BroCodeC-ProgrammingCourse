@@ -6,12 +6,17 @@ int main() {
 
     int grade = 75;
 
+    /*
     if (grade >= 60) {
         std::cout << "you pass";
     }
     else {
         std::cout << "you fail";
     }
+    */
 
+    // ternary form of the if/else statement
+    grade >= 60 ? std::cout << "you pass" : std::cout << "you fail";
+    
     return 0;
 }
