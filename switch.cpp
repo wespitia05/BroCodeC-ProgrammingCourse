@@ -44,7 +44,13 @@ int main() {
         case 12:
             std::cout << "it is december";
             break;
+        default:
+            std::cout << "please enter in only numbers (1-12)";
     }
+
+    char grade;
+    std::cout << "what letter grade?: ";
+    std::cin >> grade;
 
     return 0;
 }
