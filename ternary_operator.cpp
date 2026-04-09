@@ -17,6 +17,9 @@ int main() {
 
     // ternary form of the if/else statement
     grade >= 60 ? std::cout << "you pass" : std::cout << "you fail";
-    
+
+    int number = 9;
+    number % 2 ? std::cout << "ODD" : std::cout << "EVEN";
+
     return 0;
 }
