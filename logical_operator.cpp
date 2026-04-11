@@ -18,5 +18,13 @@ int main() {
         std::cout << "the temperature is ok";
     }
 
+    // only one condition has to be true using ||
+    if(temp <= 0 || temp >= 30) {
+        std::cout << "the temperature is bad";
+    }
+    else {
+        std::cout << "the temperature is good";
+    }
+
     return 0;
 }
