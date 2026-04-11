@@ -6,6 +6,7 @@ int main() {
     // !  = reverses the logical state of its operand
 
     int temp;
+    bool sunny = true;
 
     std::cout << "enter the temperature: ";
     std::cin >> temp;
@@ -24,6 +25,13 @@ int main() {
     }
     else {
         std::cout << "the temperature is good";
+    }
+
+    if(!sunny) {
+        std::cout << "it is not sunny";
+    }
+    else {
+        std::cout << "it is sunny";
     }
 
     return 0;
