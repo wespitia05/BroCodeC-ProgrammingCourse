@@ -12,6 +12,10 @@ int main() {
     if(name.length() > 12) {
         std::cout << "your name can't be over 12 characters";
     }
+    // built in empty method for strings
+    else if(name.empty()) {
+        std::cout << "you didn't enter your name";
+    }
     else {
         std::cout << "welcome " << name;
     }
