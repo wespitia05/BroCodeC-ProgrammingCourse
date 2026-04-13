@@ -12,6 +12,11 @@ int main() {
     name.append("@gmail.com");
 
     std::cout << "your username is now: " << name;
+    // find the character at a specified index
+    std::cout << name.at(0);
+
+    // insert a character at a given index
+    name.insert(0, "#");
 
     /*
     // built in length method for strings
