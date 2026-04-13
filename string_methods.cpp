@@ -21,6 +21,10 @@ int main() {
     // find the character location in the string
     std::cout << name.find('i');
 
+    // erase a section of the string
+    name.erase(0, 3);
+    std::cout << name;
+
     /*
     // built in length method for strings
     if(name.length() > 12) {
