@@ -18,6 +18,9 @@ int main() {
     // insert a character at a given index
     name.insert(0, "#");
 
+    // find the character location in the string
+    std::cout << name.find('i');
+
     /*
     // built in length method for strings
     if(name.length() > 12) {
