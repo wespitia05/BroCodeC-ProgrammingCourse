@@ -17,6 +17,8 @@ int main() {
         std::cout << "you didn't enter your name";
     }
     else {
+        // clears any input saved in name variable
+        name.clear();
         std::cout << "welcome " << name;
     }
 
