@@ -10,7 +10,13 @@ int main() {
     }
 
     // count to ten then print statement
-    for (int i = 1; i<= 10; i++) {
+    for (int i = 1; i <= 10; i++) {
+        std::cout << i << '\n';
+    }
+    std::cout << "HAPPY NEW YEAR!";
+
+    // count down to one then print statement
+    for (int i = 10; i >= 0; i--) {
         std::cout << i << '\n';
     }
     std::cout << "HAPPY NEW YEAR!";
