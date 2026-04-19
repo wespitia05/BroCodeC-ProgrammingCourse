@@ -13,5 +13,14 @@ int main() {
         std::cout << i << '\n';
     }
 
+    // loop through each item from 1-20 and print each number
+    for (int i = 1; i <= 20; i++) {
+        // if the number = 13, skip over the number and continue loop
+        if (i == 13) {
+            continue;
+        }
+        std::cout << i << '\n';
+    }
+
     return 0;
 }
