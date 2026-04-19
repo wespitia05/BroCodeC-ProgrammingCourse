@@ -9,5 +9,11 @@ int main() {
         std::cout << "HAPPY NEW YEAR!\n";
     }
 
+    // count to ten then print statement
+    for (int i = 1; i<= 10; i++) {
+        std::cout << i << '\n';
+    }
+    std::cout << "HAPPY NEW YEAR!";
+
     return 0;
 }
