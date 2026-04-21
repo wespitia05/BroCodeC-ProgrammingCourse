@@ -16,5 +16,16 @@ int main() {
         std::cout << '\n';
     }
 
+    int rows;
+    int columns;
+    char symbol;
+
+    std::cout << "how many rows?: ";
+    std::cin >> rows;
+    std::cout << "how many columns?: ";
+    std::cin >> columns;
+    std::cout << "enter a symbol to use: ";
+    std::cin >> symbol;
+
     return 0;
 }
