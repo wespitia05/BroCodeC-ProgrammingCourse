@@ -2,6 +2,26 @@
 
 int main() {
     // random event generator
+    srand(time(0));
+    int randNum = rand() % 5 + 1;
+
+    switch (randNum) {
+        case 1:
+            std::cout << "you win a bumper sitcker!\n";
+            break;
+        case 2:
+            std::cout << "you win a t-shirt!\n";
+            break;
+        case 3:
+            std::cout << "you win a free lunch!\n";
+            break;
+        case 4: 
+            std::cout << "you win a giftcard!\n";
+            break;
+        case 5: 
+            std::cout << "you win a concert ticket!\n";
+            break;
+    }
 
     return 0;
 }
